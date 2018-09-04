@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+<text>{{result}}</text>
+<button class='button'>random</button>
+</view>

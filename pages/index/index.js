@@ -3,7 +3,29 @@
 const app = getApp()
 
 Page({
-  
+
+    data:{
+      frameClass1: 'frame z1',//默认正面在上面
+      frameClass2: 'frame z2'
+
+    },
+
+  rotateFn: function (e) {
+    var that = this
+    if (this.data.frameClass1 == 'frame z1' &&
+      this.data.frameClass2 == 'frame z2') {
+      that.setData({
+        frameClass1: "frame front",
+        frameClass2: "frame back",
+      })
+      setTimeout(function () {
+        that.setData({
+          frameClass1: "frame z1",
+          frameClass2: "frame z2",
+        })
+      }, 2000);
+    }
+  },
 
   onLoad:function(){
 

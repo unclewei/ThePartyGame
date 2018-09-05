@@ -1,5 +1,17 @@
 <!--index.wxml-->
+
+<view class='rotateCtn'>
+  <!--正面的框  -->
+  <image class='{{frameClass1}}' data-id='1' bindtap='rotateFn' src='../images/queen.jpg'>
+    <view class='result-view'>
+      <text class='title'>-{{title}}-</text>
+      <text class='text'>{{text}}</text>
+    </view>
+  </image>
+  <!--背面的框  -->
+  <image class='{{frameClass2}}' bindtap='rotateFn' src='../images/queen.jpg' />
+</view>
+
 <view class="container">
-<text>{{result}}</text>
-<button class='button'>random</button>
+  <button class='button'>random</button>
 </view>

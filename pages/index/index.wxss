@@ -164,6 +164,11 @@ font-size: 28rpx;
 white-space:pre-wrap;
 padding: 30rpx;
 }
+.image{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 10rpx;
+}
 
 @keyframes front {
   0% {

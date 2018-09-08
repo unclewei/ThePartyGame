@@ -122,24 +122,26 @@
   backface-visibility: hidden;
   align-items: center;
   border-radius: 10rpx;
-  box-shadow: 0 0 30rpx 0 #eee;
+  box-shadow: 0 0 30rpx 0 #999;
 }
 .result-view{
   background-color: white;
-  height: 30%;
+  height: 88%;
   position: absolute;
-  width: 86%;
+  width: 80%;
   border-radius: 20rpx;
-  left: 7% ;
-  top: 60%;
-  display: flex
+  left: 10% ;
+  top: 6%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 30rpx 0 #eee;
 }
 
 .front {
   animation: front 2s linear 1;
   backface-visibility: hidden;
   border-radius: 10rpx;
-  box-shadow: 0 0 30rpx 0 #eee;
+  box-shadow: 0 0 30rpx 0 #999;
 }
 
 .back {
@@ -152,12 +154,15 @@ text-align: center;
 color: #315179;
 line-height: 60rpx;
 font-size: 32rpx;
+font-weight: 800;
 margin: 20rpx;
 }
 .text{
 width: 100%; 
 color: #999;
 font-size: 28rpx;
+white-space:pre-wrap;
+padding: 30rpx;
 }
 
 @keyframes front {

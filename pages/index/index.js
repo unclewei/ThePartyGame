@@ -5,6 +5,8 @@ const app = getApp()
 Page({
 
     data:{
+      title:'The Truth',
+      text:'哟哟哟哟哟哟哟哟',
       frameClass1: 'frame z1',//默认正面在上面
       frameClass2: 'frame z2'
 

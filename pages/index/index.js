@@ -8,11 +8,13 @@ import {
 Page({
 
   data: {
-    title: 'The Truth',
-    text: '哟哟哟哟哟哟哟哟',
+    image: '../images/img14.jpg',
+    content: {
+      title: 'The Truth',
+      text: '哟哟哟哟哟哟哟哟',
+    },
     frameClass1: 'frame z1', //默认正面在上面
     frameClass2: 'frame z2'
-
   },
 
   rotateFn: function(e) {
@@ -30,6 +32,19 @@ Page({
         })
       }, 2000);
     }
+  },
+
+  /**
+   * 抽卡
+   */
+  randomCard: function() {
+    var that = this;
+    var randomImgsNub = that.random(0, imgs.length);
+    var randomContentNub = that.random(0, contents.length);
+    that.setData({
+      image: imgs[randomImgsNub],
+      content: contents[randomContentNub]
+    })
   },
 
   /**

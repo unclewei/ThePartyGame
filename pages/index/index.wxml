@@ -4,9 +4,9 @@
   <!--正面的框  -->
   <image class='{{frameClass1}}' data-id='1' bindtap='rotateFn' src='../images/poker2.jpg'>
     <view class='result-view'>
-    <image class='image' src='{{image}}'></image>
-      <text class='title'>-{{title}}-</text>
-      <text class='text'>      {{text}}</text>
+      <view class='image-view'> <image class='image' src='{{image}}' /> </view>
+      <text class='title'>-{{content.title}}-</text>
+      <text class='text'>      {{content.text}}</text>
     </view>
   </image>
   <!--背面的框  -->

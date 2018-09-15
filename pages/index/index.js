@@ -1,6 +1,7 @@
 //index.js
 //获取应用实例
 const app = getApp()
+var setCardTime = 800;
 import {
   contents,
   imgs
@@ -31,11 +32,11 @@ Page({
           frameClass1: "frame z1",
           frameClass2: "frame z2",
         })
-      }, 1950);
+      }, 950);
        
       setTimeout(function() {
         that.randomCard();
-      }, 1800);
+      }, setCardTime);
 
     }
   },
@@ -65,7 +66,11 @@ Page({
   },
 
   onLoad: function() {
-
+    var phoneInfo = wx.getSystemInfoSync();
+    if (phoneInfo.system.indexOf('iOS') != -1 || phoneInfo.model.indexOf('iPhone') != -1){
+      setCardTime = 750;
+      console.log('是苹果系统')
+    }
   },
 
 

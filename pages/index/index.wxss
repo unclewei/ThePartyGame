@@ -139,14 +139,14 @@
 }
 
 .front {
-  animation: front 2s linear 1;
+  animation: front 1s linear 1;
   backface-visibility: hidden;
   border-radius: 10rpx;
   box-shadow: 0 0 30rpx 0 #999;
 }
 
 .back {
-  animation: back 2s linear 1;
+  animation: back 1s linear 1;
 }
 
 .title {
@@ -187,15 +187,15 @@
   }
 
   40% {
-    transform: scale(1.1, 1.1) rotateY(540deg);
+    transform: scale(1.1, 1.1) rotateY(180deg);
   }
 
   55% {
-    transform: scale(1.1, 1.1) rotateY(540deg);
+    transform: scale(1.1, 1.1) rotateY(180deg);
   }
 
   100% {
-    transform: scale(1, 1) rotateY(1080deg);
+    transform: scale(1, 1) rotateY(360deg);
   }
 }
 
@@ -205,15 +205,15 @@
   }
 
   40% {
-    transform: scale(1.1, 1.1) rotateY(360deg);
+    transform: scale(1.1, 1.1) rotateY(0deg);
   }
 
   55% {
-    transform: scale(1.1, 1.1) rotateY(360deg);
+    transform: scale(1.1, 1.1) rotateY(0deg);
   }
 
   100% {
-    transform: scale(1, 1) rotateY(900deg);
+    transform: scale(1, 1) rotateY(180deg);
   }
 }
 

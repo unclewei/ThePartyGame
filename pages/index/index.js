@@ -10,8 +10,8 @@ Page({
   data: {
     image: '../images/img14.jpg',
     content: {
-      title: 'The Truth',
-      text: '哟哟哟哟哟哟哟哟',
+      title: 'The Party Game',
+      text: '点击卡片，做你所做，说你所想，即可。',
     },
     frameClass1: 'frame z1', //默认正面在上面
     frameClass2: 'frame z2'
@@ -25,12 +25,18 @@ Page({
         frameClass1: "frame front",
         frameClass2: "frame back",
       })
+
       setTimeout(function() {
         that.setData({
           frameClass1: "frame z1",
           frameClass2: "frame z2",
         })
-      }, 2000);
+      }, 1950);
+       
+      setTimeout(function() {
+        that.randomCard();
+      }, 1800);
+
     }
   },
 

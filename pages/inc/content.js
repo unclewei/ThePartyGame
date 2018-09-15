@@ -21,10 +21,26 @@ const imgs=[
 ];
 
 const contents=[{
-  title:'',
-  text:'',
+  title:'4',
+  text:'是多大打死的阿萨德爱上大叔的阿萨德爱上大叔发发爱上发',
   contentType:1
-}];
+},
+  {
+    title: '1',
+    text: '是多大打死的阿萨德爱上大叔的阿萨德爱上大叔发发爱上发',
+    contentType: 1
+  },
+  {
+    title: '2',
+    text: '这又是另外的一个故事了，开启新的凉拌菜，诶大会是的哈读的书的爱上运动三大回大地啊的话电影点击UI',
+    contentType: 1
+  },
+  {
+    title: '3',
+    text: '3',
+    contentType: 1
+  },
+];
 
 module.exports = {
   contents,

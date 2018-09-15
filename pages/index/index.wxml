@@ -6,13 +6,9 @@
     <view class='result-view'>
       <view class='image-view'> <image class='image' src='{{image}}' /> </view>
       <text class='title'>-{{content.title}}-</text>
-      <text class='text'>      {{content.text}}</text>
+      <text class='text'>{{content.text}}</text>
     </view>
   </image>
   <!--背面的框  -->
   <image class='{{frameClass2}}' bindtap='rotateFn' src='../images/poker2.jpg' />
-</view>
-
-<view class="container">
-  <button class='button'>random</button>
 </view>

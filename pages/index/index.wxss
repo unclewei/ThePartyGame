@@ -107,7 +107,7 @@
 }
 
 .rotateCtn {
-  margin-top: 100rpx;
+  margin-top: 160rpx;
   width: 100%;
   transform-style: preserve-3d;
   position: relative;
@@ -161,7 +161,7 @@
 
 .text {
   width: 90%;
-  color: #999;
+  color: #333;
   font-size: 28rpx;
   padding: 30rpx;
 }
@@ -180,7 +180,44 @@
   height: 400rpx;
   border-radius: 10rpx;
 }
+.explain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 10rpx;
+  color: #999;
+  border-radius: 50%;
+  border: 1rpx solid #999;
+}
 
+.share-img{
+ border-radius:50%;
+width:25rpx;
+height:25rpx;
+position:absolute;
+right:28rpx;
+top:70rpx;
+border:1rpx solid #999;
+padding:10rpx;
+
+}
+.share-btn{
+  border-radius: 50%;
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 70rpx;
+  background-color: transparent;
+  border: 0;
+}
+.share-btn::after{
+    border: 0;
+}
 @keyframes front {
   0% {
     transform: scale(1, 1) rotateY(0deg);

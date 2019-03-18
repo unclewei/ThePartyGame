@@ -1,9 +1,6 @@
 page{
 padding-bottom: 60rpx;
 }
-.image {
-  width: 100%;
-}
 
 .contact {
   margin-top: 50rpx;
@@ -11,9 +8,40 @@ padding-bottom: 60rpx;
   border: 1rpx solid #00ba30;
   background-color: white;
   color: #00ba30;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   width: 90%;
   height: 90rpx;
 }
 .contact::after{
   border:  0;
+}
+.title{
+  width: 100%;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 34rpx;
+  font-weight: 700;
+  color: #333;
+}
+.desc-view{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 15rpx 30rpx;
+  color: #333;
+  font-size: 28rpx;
+}
+
+.desc-left{
+  width: 150rpx;
+  text-align: right;
+  padding-right: 25rpx;
+  font-weight: 600
+}
+.talk{
+  margin: 30rpx;
+  color: #999;
+  font-size: 28rpx
 }

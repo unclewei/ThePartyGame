@@ -1,4 +1,31 @@
 <!--pages/decode/decode.wxml-->
+<view class='title'>一些解释</view>
+<view class='desc-view'>
+  <view class='desc-left'>The Truth:</view>
+  <view class='desc-right'>真心话，老实回答就好</view>
+</view>
+<view class='desc-view'>
+  <view class='desc-left'>The Dare:</view>
+  <view class='desc-right'>大冒险，老实做就好</view>
+</view>
+<view class='desc-view'>
+  <view class='desc-left'>刮风:</view>
+  <view class='desc-right'>一阵大风刮过，刮出的人喝酒</view>
+</view>
+<view class='desc-view'>
+  <view class='desc-left'>XXOO:</view>
+  <view class='desc-right'>做爱，性交</view>
+</view>
+<view class='desc-view'>
+  <view class='desc-left'>BJ:</view>
+  <view class='desc-right'>Blow Job 口交</view>
+</view>
+<view class='desc-view'>
+  <view class='desc-left'>EX:</view>
+  <view class='desc-right'>前任</view>
+</view>
 
-<image class='image' src='../images/morse-learn.png' mode='widthFix'></image>
-<button class='contact' open-type="contact">联系客服</button>
+<view class='talk'>有什么问题可以点击下方，联系我</view>
+<view class='talk'>或者有想要加入到小程序中的真心话·大冒险·刮风。</view>
+<view class='talk'>工作繁忙，每日10点回复所有留言</view>
+<button class='contact' open-type="contact">联系我</button>

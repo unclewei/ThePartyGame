@@ -3,7 +3,7 @@ padding-bottom: 60rpx;
 }
 
 .contact {
-  margin-top: 50rpx;
+  margin: 50rpx 0rpx;
   margin-left: 5%;
   border: 1rpx solid #00ba30;
   background-color: white;

@@ -184,8 +184,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 40rpx;
-  height: 40rpx;
+  width: 50rpx;
+  height: 50rpx;
   position: absolute;
   right: 30rpx;
   top: 10rpx;
@@ -196,11 +196,11 @@
 
 .share-img{
  border-radius:50%;
-width:25rpx;
-height:25rpx;
+width:30rpx;
+height:30rpx;
 position:absolute;
 right:28rpx;
-top:70rpx;
+top:90rpx;
 border:1rpx solid #999;
 padding:10rpx;
 
